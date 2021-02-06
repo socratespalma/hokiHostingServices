@@ -15,8 +15,9 @@
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/utilities.css" />
+
     <title>Hoki Hosting Services</title>
   </head>
   <body>
@@ -29,6 +30,78 @@
         <a href="./index.html">Docs</a>
       </section>
     </nav>
+
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Easier deployment</h1>
+          <p>
+            Deploy web apps of all kinds, from large scale enterprise APIs to
+            static websites for individuals. Fill out the form to try a demo of
+            our platform
+          </p>
+          <a class="btn btn-outline" href="./features.html">Read More</a>
+        </div>
+        <div class="showcase-form card">
+          <h2>Request a Demo</h2>
+          <form action="">
+            <div class="form-control">
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                name="company"
+                placeholder="Enter your company name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-heading text-center my-1">
+          Welcome to the best platform form building applications of all types
+          with modern arquitecture and scaling
+        </h3>
+
+        <div class="grid text-center my-4">
+          <div>
+            <i class="fas fa-server fa-3x"></i>
+            <h3>10,389,593</h3>
+            <p class="text-secondary">Deployments</p>
+          </div>
+          <div>
+            <i class="fas fa-upload fa-3x"></i>
+            <h3>998 TB</h3>
+            <p class="text-secondary">Published</p>
+          </div>
+          <div>
+            <i class="fas fa-project-diagram fa-3x"></i>
+            <h3>2,329,263</h3>
+            <p class="text-secondary">Projects</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="../js/main.js"></script>
   </body>
