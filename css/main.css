@@ -145,3 +145,70 @@ p {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+/* CLI */
+.cli .grid {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid .card:first-child {
+  background-color: #333;
+  color: #fff;
+  height: 10rem;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.cli .grid .card:nth-child(2) {
+  grid-column: 3;
+  /* grid-row: 1; */
+}
+
+.cli .grid .card:last-child {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+/* Cloud */
+.cloud .grid div {
+  grid-column: 1 / span 2;
+}
+
+.cloud .grid img {
+  grid-column: 3;
+}
+
+/* Languages */
+.languages .container .card img {
+  width: 100%;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
+}
+
+.languages .card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.languages .card:hover {
+  transform: translateY(-15px);
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+}
+
+.footer .container div,
+.footer nav a,
+.social i {
+  color: #fff;
+}
+
+.footer nav {
+  flex-direction: column;
+}

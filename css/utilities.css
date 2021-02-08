@@ -26,6 +26,38 @@
   transform: scale(0.98);
 }
 
+/* Background and colored buttons */
+.bg-primary,
+.btn-primary {
+  background-color: var(--steel-teal);
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: var(--deep-space-sparkle);
+}
+
+/* Texts */
+.lead {
+  font-size: 1.2rem;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
 .text-center {
   text-align: center;
 }
